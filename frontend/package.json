@@ -1,0 +1,48 @@
+{
+	"name": "fuzzle-next",
+	"version": "0.7.5",
+	"description": "Fuzzle is an onine service for graphic design for creating your own masterpieces.",
+	"main": "index.js",
+	"scripts": {
+		"start": "next start",
+		"build": "next build",
+		"dev": "next dev",
+		"lint": "next lint"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PAXANDDOS/fuzzle-next.git"
+	},
+	"keywords": [
+		"photoshop",
+		"editor",
+		"online-editor",
+		"image-editor",
+		"drawing",
+		"drawing-tool",
+		"creative"
+	],
+	"author": "Paul Litovka",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/PAXANDDOS/fuzzle-next/issues"
+	},
+	"homepage": "https://github.com/PAXANDDOS/fuzzle-next#readme",
+	"dependencies": {
+		"axios": "^0.26.1",
+		"next": "^12.1.4",
+		"nookies": "^2.5.2",
+		"react": "^17.0.2",
+		"react-colorful": "^5.5.1",
+		"react-dom": "^17.0.2",
+		"react-draggable": "^4.4.4",
+		"react-modal": "^3.14.4",
+		"react-resizable": "^3.0.4",
+		"sass": "^1.49.11",
+		"use-debouncy": "^4.3.0"
+	},
+	"devDependencies": {
+		"eslint": "8.12.0",
+		"eslint-config-next": "12.1.4"
+	}
+}
